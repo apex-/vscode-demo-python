@@ -1,0 +1,6 @@
+requests
+fastapi
+uvicorn
+pylint
+pytest
+pytest-depends
