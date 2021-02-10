@@ -1,7 +1,7 @@
 from typing import Optional, List
 from collections import OrderedDict
 from fastapi import FastAPI, HTTPException
-from models import Task, TaskCreateInput, TaskUpdateInput
+from app.models import Task, TaskCreateInput, TaskUpdateInput
 
 tasks: OrderedDict = OrderedDict()
 app = FastAPI(title="Task List API")

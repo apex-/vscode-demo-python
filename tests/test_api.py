@@ -5,7 +5,7 @@ import pytest
 from fastapi import FastAPI
 from fastapi.testclient import TestClient
 
-from api import app
+from app.main import app
 
 client = TestClient(app)
 __TASK_ID = None
